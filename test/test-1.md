@@ -6,6 +6,6 @@ The program should **merge the data** by adding only the `value` field from `v2_
 
 **Requirements**
 
-- **Data Handling:** Instead of making actual API calls during testing, the program should read from files in the `data/*` directory.
+- **Data Handling:** Instead of making actual API calls during this test, the program should read from files in the `data/*` directory.
 - **Live API Mode:** Implement a toggle (e.g., a command-line flag or a configuration setting) to switch between reading from files (test mode) and making actual API calls (live mode).
 - **Merging Logic:** The program should ensure that only the `value` field from `v2_api` is added to the appropriate records in `v1_api` data, without altering other fields.
