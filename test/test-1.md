@@ -1,4 +1,4 @@
-Develop a Python program that retrieves data from two different sources:
+Develop a program that retrieves data from two different sources:
 1. **Historical Data** - Previously retrieved data stored in files within the `data/*` directory, which was originally fetched from `v1_api`.
 2. **New Data** - Fresh data obtained from `v2_api`.
 
